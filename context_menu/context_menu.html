@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  
+  <style>
+    body {
+      position: relative;
+    }
+
+    #title {
+      margin: 0 auto;
+      width: 80%;
+      height: 10%;
+      background-color: rgb(187, 193, 223);
+      text-align: center;
+    }
+
+    #menu {
+      position: absolute;
+      display: none;
+      width: 100px;
+      height: 200px;
+      border: 1px solid black;
+    }
+
+    #menu.active {
+      display: inline-block;
+      background-color: rgb(86, 156, 214);
+    }
+    #menu>li {
+      list-style: none;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="title">
+    <h1>콘텍스트 메뉴</h1>
+  </div>
+  <div id="menu">
+    <li>메뉴1</li>
+    <li>메뉴2</li>
+    <li>메뉴3</li>
+    <li>메뉴4</li>
+    <li>메뉴5</li>
+  </div>
+  <script src="context.js"></script>
+</body>
+
+</html>
